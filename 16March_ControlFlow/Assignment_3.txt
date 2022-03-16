@@ -1,0 +1,15 @@
+1. Program to write the first 10 numbers.
+2. Program to calculate the sum of first 10 numbers
+3. Make the loop stop when i is 5.
+
+ 
+
+    for (i = 0; i < 10; i++) {
+          console.log(i);
+          if (i == 5) {   
+    
+        ----------;
+          }
+    }
+4. Write a program to print day of week name using switch case.
+5. Write a program print total number of days in a month using switch case.
