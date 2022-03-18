@@ -1,0 +1,2 @@
+1. Try to build mind map of finding students of a particular college in a city of a specific board.
+2. Try to build mind map to find out the computer teacher in a school. 
