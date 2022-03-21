@@ -1,0 +1,37 @@
+p{
+    color : yellow;
+    background-color: aqua;
+}
+
+h1{
+    color: red;
+    background-color: blueviolet;
+}
+
+div{
+    height:100px;
+    width:100px;
+    border: 1px solid red;
+}
+
+/*** when using  a class to style a HTML element ****/
+
+.first{
+    background-color: yellow;
+}
+
+.second{
+    background-color: blue;
+}
+
+/*** when using id as a style *****/
+/* #w1, #w2, #w3, #w4{
+    background-color: brown;
+} */
+
+
+/*****
+for HTML element nothing is required
+for the class . is required
+for the id # is required   -> highest priority
+***/
