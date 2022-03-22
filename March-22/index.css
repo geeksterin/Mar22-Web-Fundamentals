@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.geek {
+  background-color: aquamarine;
+  border: 2px solid red;
+  padding: 10px;
+  /* width: 150px; */
+  margin: 20px;
+}
+
+/* .btn {
+  background-color: darkslategray;
+} */
+
+/* #geekone {
+  background-color: chartreuse;
+} */
+
+.my-form {
+  border: 2px solid darkslategray;
+  padding: 20px;
+  background-color: rgb(150, 240, 240);
+  width: 300px;
+}
+
+.my-div {
+  margin: 10px;
+}
+
+.one {
+  background-color: darkturquoise;
+  padding: 20px;
+  border: 10px solid red;
+  width: 150px;
+}
+
+.two {
+  background-color: darkviolet;
+  width: 150px;
+}
+
+.three {
+  background-color: deepskyblue;
+  padding: 30px;
+  width: 150px;
+}
