@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!---
+    1. readonly
+    2. disabled
+    3. maxlength
+    4. Size of the input box (width)
+    5. type='date' : min and max
+    6. PATTERN
+    7. placeholder
+    8. required
+    9. autofocus
+    -->
+
+    <form>
+        <label for="name">Name</label>
+        :
+        <input type="text" id="name" value="Abhishek" name="name"  readonly required>
+        <br>
+
+        <label for="pincode">Pincode</label>
+        :
+        <input type="text" id="pincode" value="" placeholder="enter your pincode"
+        name="pincode" maxlength="6">
+        <br>
+
+        <label for="pin">Pincode</label>
+        :
+        <input type="text" id="pin" value="1212" placeholder="enter your pincode"
+        name="pin" size="6">
+        <br>
+
+        <input type="date" min="2020-12-31" >
+
+        <input type="date" max="2022-02-24" >
+
+        <br>
+        <!-- <input type="text" value="" pattern="[789][0-9]{9}"> -->
+
+        <input type="text" id="name1" value="" name="name1" required>
+        <input type="text" autofocus>
+        <!-- <input type="image" height="48" width="48"> -->
+
+
+    </form>
+
+
+    
+</body>
+</html>
