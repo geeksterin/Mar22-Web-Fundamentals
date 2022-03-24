@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+* {
+  font-family: "Open Sans";
+}
+
+.btn-green {
+  background-color: darkgreen;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  margin-right: 100px;
+  border-radius: 5px;
+}
+
+#container {
+  background-color: rgb(181, 181, 181);
+  padding: 20px;
+  /* margin: top, right, bottom, left */
+  margin: 20px 0px 20px 0px;
+}
+
+.code-text {
+  background-color: honeydew;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-left: 10px solid green;
+}
+
+h1 {
+  background: linear-gradient(
+    to right,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

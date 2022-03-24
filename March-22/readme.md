@@ -30,6 +30,6 @@ The <label> tag defines a label for several elements like:
 form is used to gather data from a user
 
 assignment
-1 - use netlify with github
+1 - use netlify with github (optional)
 2 - create a survey form for employees of a company
-(you can use any labels that you want min. 5)
+(you can use any labels that you want min. 5) (compulsory)
