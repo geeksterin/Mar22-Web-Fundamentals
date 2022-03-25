@@ -1,0 +1,57 @@
+.fcontainer{
+    border: 2px solid grey;
+    display:flex;
+    height:300px;
+
+    flex-direction: row; 
+    /** default value is row. row, column, row-reverse, column-reverse**/
+
+    /* justify-content: center; */
+     /**center, flex-end, flex-start, space-evenly, space-between, space-around**/ 
+
+    /* align-items: center;  */
+    /*center, flex-start, flex-end**/
+
+    /* flex-wrap:wrap; */
+    /* flex-wrap:wrap-reverse; */
+
+    flex-flow:row wrap /*flex-direction and flex-wrap*/
+}
+
+.fitem{
+    border:2px solid black;
+    background-color: khaki;
+    width: 60px;
+    height:60px;
+    margin:4px;
+}
+
+/* .item1{
+    order: 4;
+}
+
+
+.item2{
+    order:3;
+}
+
+.item3{
+    order:1;
+}
+
+.item4{
+    order:2;
+} */
+
+/* .item3{
+   flex-grow:3 
+} */
+
+/* .item3{
+    flex-shrink:3;
+    flex-grow:3;
+} */
+
+.item3{
+    align-self: center;
+}

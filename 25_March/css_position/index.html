@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Position</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* #box3{
+            position:relative;
+            top:30px;
+            left:20px;
+        } */
+        /* #box3{
+            position:absolute;
+            top:50px;
+            left:30px;
+        } */
+
+        /* #box3{
+            position:fixed;
+            right:4px;
+            bottom:4px;
+        } */
+
+        #box3{
+            position:sticky;
+            top:49%;
+        }
+
+    </style>
+</head>
+<!--
+Positions :-
+1. Static : By default
+2. Relative : change the position with respect to its normal position and will leave a gap
+in its noraml position 
+3. Absolute : change the position with respect to its parent position
+4. Fixed :
+5. Sticky: for navigation purposes. we have to provide some offset (eg. top)
+
+-->
+
+<body>
+
+    <!-- div.box#box
+        div.{class}#{id} *n
+    -->
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">Chat Window</div>
+        <div class="box" id="box4">4</div>
+    </div>
+    
+    
+</body>
+</html>
