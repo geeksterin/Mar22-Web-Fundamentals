@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            display:inline;
+            padding:4px;
+        }
+        a:hover{
+            color:orange;
+        }
+        li > ul{
+            display:none;
+        }
+        li:hover ul {
+            display: block;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Product</a>
+                <ul>
+                    <li>
+                        <a href="#">Computer science</a>
+                    </li>
+                    <li>
+                        <a href="#">Electronics</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
