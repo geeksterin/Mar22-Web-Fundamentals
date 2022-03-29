@@ -1,0 +1,13 @@
+.container{
+    width:900px;
+    height:400px;
+    border:2px solid green;
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.items{
+    border:2px solid tomato;
+    padding:5px;
+    margin:5px;
+}
