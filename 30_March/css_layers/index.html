@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Z-Index</title>
+  </head>
+  <body>
+      <!-- Z-index
+        1. used along with position property
+        2. it specifies which element ahould come on the top and which element should come at the bottom
+    -->
+    <div class="container">
+      <div
+        class="items"
+        style="
+          width: 300px;
+          height: 100px;
+          position: relative;
+          top: 10px;
+          left: 80px;
+          background-color: blue;
+          z-index:1;
+        "
+      ></div>
+      <div
+        class="items"
+        style="
+          width: 300px;
+          height: 100px;
+          position: relative;
+          top: -58px;
+          left: 130px;
+          background-color: red;
+          z-index:3;
+        "
+      ></div>
+      <div
+        class="items"
+        style="
+          width: 300px;
+          height: 100px;
+          position: relative;
+          top: -112px;
+          left: 188px;
+          background-color: yellow;
+          z-index:2;
+        "
+      ></div>
+    </div>
+  </body>
+</html>

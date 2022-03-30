@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a.second:focus {
+        color: #000000;
+      }
+      p.loremclass:first-line {
+        text-decoration: none;
+      }
+      p:first-letter {
+        text-decoration: underline;
+      }
+      /* p:after{
+            content:url(test.ico)
+        } */
+    </style>
+  </head>
+
+  <body>
+    <!--
+        Pseudo classes are used to add some special effects to some selectors.
+
+        selector:pseudo-class {property : value}
+
+        1. link -> to add  style to an unvisited link
+        2. visited -> to add  style to the visited link
+        3. hover -> when you mouse over it.
+        4. active -> to an active element
+        5. focus -> while the element has focus
+
+    -->
+
+    <a href="">black line</a><br />
+
+    <a class="second" href="">second line</a><br />
+
+    <a href="">third line</a><br />
+
+    <!--Pseudo elements 
+        :first-line
+        :first-letter
+        :before -> use to insert some content before an element
+        :after -> use to insert some content after an element
+    -->
+    <p class="loremclass">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores tempore
+      eaque suscipit ipsum aut nulla voluptatibus officia exercitationem iste
+      velit a, iusto consequuntur totam blanditiis, neque aspernatur? Distinctio
+      autem ab optio temporibus porro error quis assumenda, quos ratione
+      repellat mollitia consequuntur itaque blanditiis recusandae dolorem
+      perspiciatis odit labore voluptatem! Sed laboriosam deserunt aut, neque
+      fugit aperiam rem nemo totam laudantium adipisci debitis quisquam
+      molestiae doloribus autem voluptatibus! Sapiente magnam labore id dolores,
+      hic dolor possimus aliquam incidunt deleniti explicabo quae cupiditate aut
+      totam similique beatae, dolorem ad! Nam molestias totam veniam rem! Itaque
+      corporis consequatur in cupiditate voluptas debitis quidem, reprehenderit
+      nesciunt nemo placeat fugit facere! Ipsam magnam illum dolorem quo debitis
+      ex voluptatum cupiditate ut, animi adipisci quod velit asperiores amet
+      praesentium, laudantium fugit similique non quibusdam, voluptas facere
+      corporis ducimus accusantium. Id officiis porro hic, illo totam culpa sed
+      ullam aliquid delectus aut ratione ipsa ipsam laudantium perspiciatis quo
+      odio repellendus debitis commodi nobis accusantium. Exercitationem tempora
+      aut dolores facilis dolorum voluptatum tenetur? Tempore voluptate minima
+      cumque magnam impedit laborum veritatis adipisci debitis ipsum, sequi
+      unde, aut sunt quis blanditiis fugiat molestiae? Quidem quo veritatis,
+      ipsa dignissimos esse incidunt, deleniti, aut explicabo excepturi
+      asperiores eos nisi non molestiae praesentium fuga voluptates! Dolorum,
+      facere corrupti. Eveniet, maiores? Veniam delectus magni sint inventore
+      illo quo earum, vero officiis nesciunt dolor? Rerum excepturi atque
+      dolorum quaerat asperiores dolor illo exercitationem nihil natus totam
+      est, dignissimos odio quasi non. Reprehenderit accusamus, maxime provident
+      minima voluptates inventore est voluptatum necessitatibus? Porro doloribus
+      dignissimos quod sint magnam maxime consectetur. Numquam nesciunt
+      architecto suscipit non vel voluptas repellendus voluptatibus et
+      voluptatum culpa? Vel laborum molestiae beatae, alias tempore dolorem
+      ullam nemo voluptatibus quas quidem praesentium reprehenderit maxime
+      exercitationem ratione cum rerum rem doloremque totam itaque. Doloribus
+      sunt recusandae quis necessitatibus, ipsa possimus temporibus molestias
+      consectetur.
+    </p>
+
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+      mollitia.
+    </p>
+
+    <div>
+      <h3>Float property</h3>
+      <!-- float is used for positioning and formatting content.
+            left :floats to the left of the container
+            right : floats to the right of the container
+            none : This is default. 
+            inherit : the float value of the parent
+        -->
+
+      <p style="float: left">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, cum!
+      </p><br>
+
+      <p style="float: right">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, qui
+        ipsa fugit incidunt aspernatur, rerum quos ut nihil repudiandae commodi
+        sit iusto, numquam distinctio ab corporis laboriosam at nostrum veniam!
+      </p>
+    </div>
+
+    <div class="container">
+        <h2>Select tag</h2>
+
+        <label for="course">Select your fav course</label>
+
+        <select id="course" name="fav_course">
+
+            <option value="java">Java</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">Javascript</option>
+
+
+        </select>
+    </div>
+  </body>
+</html>
