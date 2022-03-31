@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:100px;
+            height:100px;
+            border-radius:50%;
+            background-color:red;
+            position:relative;
+            animation-name: mymove;
+            animation-duration: 5s;
+            animation-fill-mode: both;
+        }
+
+        @keyframes mymove {
+            from {
+                top:0px;
+            }
+            to{
+                top:200px;
+                background-color:blue;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
+
+<!--
+    The animation-fill-mode property can have the following values:
+
+    1. none - Default value. 
+        Animation will not apply any styles to the element before or after it is executing
+    2. forwards - The element will retain the style values that is set by the last keyframe 
+        (depends on animation-direction and animation-iteration-count)
+    3. backwards - The element will get the style values that is set by the first keyframe 
+        (depends on animation-direction), and retain this during the animation-delay period
+    4. both - The animation will follow the rules for both forwards and backwards, 
+        extending the animation properties in both directions
+-->

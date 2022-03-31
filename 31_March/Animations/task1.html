@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Animations - Task 1</title>
+    <style>
+      div{
+        width:100px;
+        height:100px;
+        background-color:red;
+
+        animation-name: example;
+        animation-duration: 4s;
+      }
+
+      @keyframes example {
+        from {
+          background-color: red;
+        }
+        to {
+          background-color: yellow;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Animation - Task 1</h1>
+    <div></div>
+    <p>
+      <b>Note:</b> When an animation is finished, it goes back to its original
+      style. <br />
+      <i
+        >The animation will last for 4 seconds, and it will gradually change the
+        background-color of the div element from "red" to "yellow"</i
+      >
+    </p>
+
+    <!--
+        The animation-duration property defines how long an animation should take to complete.
+        If the animation-duration property is not specified, no animation will occur, 
+        because the default value is 0s (0 seconds). 
+
+        when the style will change by using the keywords 
+        "from" and "to" (which represents 0% (start) and 100% (complete)).
+    -->
+  </body>
+</html>

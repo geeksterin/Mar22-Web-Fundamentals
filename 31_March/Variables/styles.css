@@ -1,0 +1,25 @@
+:root{
+    --nokiaBlue:red;
+    --white:#ffffff;
+}
+
+body{
+    background-color: var(--nokiaBlue);
+}
+
+h2{
+    border-bottom:2px solid var(--nokiaBlue);
+}
+
+.container{
+    color:var(--nokiaBlue);
+    background-color: var(--white);
+    padding:15px;
+}
+
+button{
+    background-color: var(--white);
+    color:var(--nokiaBlue);
+    border: 1px solid var(--nokiaBlue);
+    padding:5px;
+}

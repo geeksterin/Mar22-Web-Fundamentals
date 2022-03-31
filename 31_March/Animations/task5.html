@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div{
+        width:100px;
+        height:100px;
+        background-color:red;
+        position:relative;
+        animation-name: mymove;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+      }  
+      
+      @keyframes mymove {
+        from {
+          left:0px;
+        }
+        to {
+          left:300px;
+        }
+      }
+       #div1{
+         animation-timing-function: linear;
+       }
+       #div2{
+         animation-timing-function: ease;
+       }
+       #div3{
+         animation-timing-function: ease-in;
+       }
+       #div4{
+         animation-timing-function: ease-out;
+       }
+       #div5{
+         animation-timing-function: ease-in-out;
+       }
+
+
+    </style>
+  </head>
+  <body>
+    <h1>CSS Animation</h1>
+
+    <p>
+      The animation-timing-function property specifies the speed curve of the
+      animation. The following example shows some of the different speed curves
+      that can be used:
+    </p>
+
+    <div id="div1">linear</div>
+    <div id="div2">ease</div>
+    <div id="div3">ease-in</div>
+    <div id="div4">ease-out</div>
+    <div id="div5">ease-in-out</div>
+  </body>
+</html>
+
+<!--
+    The animation-timing-function property specifies the speed curve of the animation.
+
+    The animation-timing-function property can have the following values:
+
+    1. ease - Specifies an animation with a slow start, then fast, then end slowly (this is default)
+    2. linear - Specifies an animation with the same speed
+    3. ease-in - Specifies an animation with a slow start
+    4. ease-out - Specifies an animation with a slow end
+    5. ease-in-out - Specifies an animation with a slow start and end
+
+
+-->
+ from start to end
