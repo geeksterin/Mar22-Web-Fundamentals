@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="document.getElementById('myimage').src ='pic_bulbon.gif'">
+      Turn on the light
+    </button>
+
+    <img id="myimage" src="pic_bulboff.gif" style="width: 100px" />
+
+    <button onclick="document.getElementById('myimage').src ='pic_bulboff.gif'">
+      Turn off the light
+    </button>
+
+
+    <!-- Placing the scripts at the bottom of the body element , it improves the display speed
+    because script slows down the display.-->
+    <!-- <script>
+      function change() {
+        document.getElementById("demo").innerHTML = "Hello Javascript";
+      }
+    </script> -->
+  </body>
+</html>
