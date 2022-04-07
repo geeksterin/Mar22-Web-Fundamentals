@@ -1,0 +1,11 @@
+.my-new-class{
+    padding: 10px;
+    background-color: bisque;
+    border: 1px solid rgb(255, 139, 139);
+    border-radius: 2px;
+}
+
+.back-color{
+    background-color: aquamarine;
+}
+

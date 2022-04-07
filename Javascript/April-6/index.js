@@ -148,3 +148,5 @@ for(let i = 0; i<y.length;i++){
 
 // 2. Check whether the given character is a vowel or not. 
 // (Also check for capital characters). 
+
+
