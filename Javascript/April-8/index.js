@@ -154,7 +154,6 @@ const y = [6,7,8,9]
 // Array.concat(secondArray)
 // const z = x.concat(y)
 // console.log(z)
-
 // x.push(y)
 
 x.splice(2, 0, 6,7,8,9)
