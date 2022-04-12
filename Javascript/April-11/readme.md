@@ -1,3 +1,4 @@
 assignment 
-- add check that password and confirm password should be same
-- add check that password should contain atleast on of the following - @, #, $
+1 - add check that password and confirm password should be same
+2 - add check that password should contain atleast on of the following 
+- @, #, $
