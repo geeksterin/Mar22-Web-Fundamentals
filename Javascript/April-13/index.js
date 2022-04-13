@@ -51,7 +51,10 @@ console.log("last")
 // lenght of Q is fixed = 4
 // number of operations on that Q
 
-//
+// question : 
+// we have a queue which will take passenger details 
+// add a function to add element to queueadd function to search queue
+// add function to find number of passengers for a given train
 
 const myQueue = []
 
