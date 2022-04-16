@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DOM</title>
+    <style>
+      body {
+        background-color: rgb(108, 83, 52);
+      }
+      .container {
+        background-color: white;
+        /* border: 2px solid; */
+        box-shadow: 0 0 10px black;
+        padding: 50px;
+        width: 500px;
+        text-align: center;
+        margin: 100px auto;
+      }
+    </style>
+    <script>
+      function changeText() {
+        //Get the reference of html element
+        var h2Ref = document.getElementById("h2");
+        var divRef = document.getElementById("div1");
+        var buttonRef = document.getElementById("b1");
+
+        console.log(buttonRef);
+
+        h2Ref.innerText = "Hello, Javascript";
+        divRef.style.backgroundColor = "red";
+        h2Ref.style.color = "white";
+        buttonRef.style.color = "white";
+        buttonRef.style.backgroundColor = "green";
+        buttonRef.style.padding = "10px";
+        buttonRef.style.border = "none";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container" id="div1">
+      <h2 id="h2">Welcome to Geekster</h2>
+      <button onclick="changeText()" id="b1">Javascript</button>
+
+      <input type="password" />
+    </div>
+  </body>
+</html>
