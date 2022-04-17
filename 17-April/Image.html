@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      div {
+        width: 500px;
+        padding: 30px;
+        box-shadow: 0 0 10px black;
+        text-align: center;
+        margin: 100px auto;
+      }
+      button {
+        background-color: blueviolet;
+        border: none;
+        color: white;
+        padding: 10px 30px;
+        margin-right: 10px;
+      }
+    </style>
+    <script>
+      function Friend() {
+        //get Image reference
+        //change the value of src attribute
+      }
+      function Family() {
+        //get Image reference
+        var imgRef = document.getElementById("img1");
+
+        //change the value of src attribute
+        imgRef.src =
+          "https://images.pexels.com/photos/39691/family-pier-man-woman-39691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
+        // change image shape into circle
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <img
+        id="img1"
+        src="https://images.pexels.com/photos/745045/pexels-photo-745045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        width="300"
+        height="300"
+      />
+      <br />
+      <button onclick="Friend()">Friend</button>
+
+      <button onclick="Family()">Family</button>
+    </div>
+  </body>
+</html>
