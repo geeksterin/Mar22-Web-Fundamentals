@@ -8,7 +8,7 @@ const somePromise = fetch('https://reqres.in/api/users')
 somePromise
     .then(data => data.json())
     .then(result => {
-        // console.log(result)
+        console.log(result)
         const userArr = result.data
         for(let i=0; i< userArr.length; i++){
             // console.log(userArr[i])

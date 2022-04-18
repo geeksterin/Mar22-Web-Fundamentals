@@ -1,0 +1,37 @@
+/* .user{
+    background-color: aquamarine;
+    padding: 20px;
+    border: 1px solid red;
+    margin: 10px 0px;
+} */
+
+body{
+    background-image: url("./background.jpeg")
+}
+
+#todo-list{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-item{
+    margin-top: 20px;
+}
