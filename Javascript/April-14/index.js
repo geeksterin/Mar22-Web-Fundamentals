@@ -46,6 +46,8 @@ const matrixOne = [
     [8,5,2,0]
   ];
 
+  // 2-D
+
 // console.log(matrixOne[0][3])
 // console.log(matrixOne[1][2])
 
