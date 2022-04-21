@@ -30,11 +30,17 @@ console.log("bye")
 //     console.log(str)
 // }
 
-const yourPromise = new Promise((resolve, reject) => {
+const yourPromise = new Promise(
+     (resolve, reject) => {
     resolve(1000)
     reject("geekster")
      // means fulfilling the promise
-})
+}
+)
+
+// (res,rej) => {
+//     res("hello")
+// }
 
 // console.log(yourPromise)
 

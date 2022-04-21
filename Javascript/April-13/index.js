@@ -6,7 +6,7 @@ console.log("first")
 const somePromise = fetch('https://reqres.in/api/users')
 
 somePromise
-    .then(data => data.json())
+    .then( (data) => {return data.json()} )
     .then(result => {
         console.log(result)
         const userArr = result.data
@@ -18,7 +18,7 @@ somePromise
             document.querySelector('h1').appendChild(newElement)
         }
     })
-    .catch(error => console.log("got some error - ", error))
+    .catch( error => console.log("got some error - ", error))
 
 
 // apiCall

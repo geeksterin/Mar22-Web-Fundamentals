@@ -6,3 +6,6 @@ const z = [8,7,6,5,3]
 
 
 make a function which will devide each element of array by 2 
+
+
+result = [1,2,3,4,5]

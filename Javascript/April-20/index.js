@@ -172,3 +172,20 @@ const aa = 5
 // let bb = aa%2 === 0 ? "even" : "odd"
 
 // console.log(bb)
+
+
+const arr= [1,2,3,4,5]
+
+const myArrElement = document.querySelector('.my-arr')
+
+for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
+
+    // const htmlElement = `<p>${element}</p>`
+    // myArrElement.innerHTML = myArrElement.innerHTML + htmlElement
+
+    const newElement = document.createElement('p')
+    newElement.innerText = element
+    myArrElement.appendChild(newElement)
+    
+}
