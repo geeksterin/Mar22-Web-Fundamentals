@@ -1,7 +1,5 @@
 website to host your website - https://www.netlify.com/
 
-
-
 object ? 
 a data structure where you store key value pairs
 
