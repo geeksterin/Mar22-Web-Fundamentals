@@ -1,0 +1,61 @@
+.card{
+    border: 2px solid salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    /* width: 50%; */
+}
+
+#image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.container{
+    /* border: 2px solid salmon; */
+    width: 50%;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.name{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.job{
+    color: rgb(90, 161, 161);
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.btn{
+    all: unset;
+    padding: 5px 10px;
+    border: 1px solid #e2aa5b;
+    cursor: pointer;
+    background-color: #FFECD1;
+    border-radius: 5px;
+
+}
+
+.btn:hover{
+    background-color: #e9b772;
+
+}
+
+.button-group{
+    margin-bottom: 20px;
+}
