@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+   
+}
+/* vw->viewport width   vh-viewport height   */
+:root{
+    --font-size:30px;
+    --primary-color:#2874ef
+}
+.child{
+    width: 100vw;
+}
+.child1{
+    height:10vh;
+    background-color:var(--primary-color);
+}
+.child2{
+    height: 6vh;
+    background-color:#fefefe;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child3{
+    height:83vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+.child31{
+    height: 100%;
+    background-color: red;
+    flex: 1;
+    padding-left: 30px;
+    padding-top: 20px;
+    
+}
+
+.child32{
+    height: 100%;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.groupcheckbox{
+    display: flex;
+    flex-direction:row-reverse;
+    gap: 10px;
+    
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap: 10px;
+}
+ul li{
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.child31 h2{
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.child2 ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.child32top{
+    width: 100%;
+    height: 40%;
+    background-color: blueviolet;
+}
+
+.child32bottom{
+    width: 100%;
+    height:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card{
+    width: 100%;
+    height:122px;
+    background-color: #1e1e1e;
+}
