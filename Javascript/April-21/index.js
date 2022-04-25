@@ -123,3 +123,4 @@ const promise = new Promise((resolve, reject) => {
   } )
   .then(error => console.log(error));
 
+

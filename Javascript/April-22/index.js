@@ -68,7 +68,10 @@ function displayPrev(){
 }
 
 function displayRandom(){
-    console.log("display random user details")
+    const random = Math.random()*reviews.length
+    const index = Math.floor(random)
+    console.log("display random user details", index)
+    updateScreen( reviews[index] )
 }
 
 function updateScreen(virat){
