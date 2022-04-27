@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+
+main{
+    min-height: 100vh;
+    background-color: rgb(189, 196, 224);
+    padding: 50px;
+}
+
+.search{
+    background-color: aliceblue;
+    width: 200px;
+    position: relative;
+}
+
+input{
+    width: 100%;
+    outline: none;
+}
+
+#icon{
+    background-color: white;
+    position: absolute;
+    top: 3px; 
+    right: 3px;
+}
+
+#icon:hover{
+    cursor: pointer ;
+    background-color: aqua;
+}
+
+.img{
+    height: 100px;
+    width: 100%;
+}
+
+.recipe-card{
+    padding: 8px;
+    border: 2px solid red;
+    width: 150px;
+    background-color: rgb(101, 99, 217);
+}
+
+.flex-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    border: 2px solid red;
+    padding: 5px;
+    background-color: gray;
+    width: 50px;
+    font-size: 10px;
+}
+
+
+.more-details{
+    font-size: 10px;
+}
+
+.container{
+    /* width: 100vw; */
+    /* display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 50px;
+    background-color: #2196F3;
+    padding: 10px; */
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
