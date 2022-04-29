@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.test{
+    width: 60vw;
+    height: 60vh;
+    background-color: red;
+
+    border: 5px solid green;
+    margin: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+#value{
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.btn{
+    background-color: green;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+
+.portal{
+    width: 100vw;
+    height: 35px;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0;
+}
+
+.hidden{
+    display: none;
+}
