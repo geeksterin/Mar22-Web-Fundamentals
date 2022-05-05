@@ -26,3 +26,7 @@ Boilerplate -> The piece of code which is ready to use and is a basic need to ge
 4. Intro to bootstrap
 5. Wireframing -> Preparing a rough sketch of the UI/UX. Tool of choice, Pen and Paper, whiteboard.
 6. Get started with the FE. (HTML and CSS)
+
+
+## May-04-2022
+1. 
