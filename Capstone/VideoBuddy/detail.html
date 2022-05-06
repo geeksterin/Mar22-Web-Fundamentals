@@ -8,15 +8,24 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
   </head>
   <body>
-    <nav>
-      <h1>Navigation bar from index</h1>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          VideoBuddy
+        </a>
+        <form class="d-flex" action="search.html">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q" id="input_search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </nav>
 
     <section class="mt-4 px-4">
       <div class="container">
         <div class="row">
-          <div class="col">
-            <iframe width="560" height="315" id="player_iframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="col" style="display: flex; justify-content: center;">
+            <iframe width="560" height="315" id="player_iframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 90vw;"></iframe>
           </div>
           <div class="col">
             <h3 id="video_title"></h3>
@@ -28,71 +37,41 @@
       </div>
       <div class="container mt-4">
         <h4>Suggestions</h4>
-        <div class="hstack gap-3" style="overflow: scroll;">
-          <div class="card" style="min-width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-            </div>
-          </div>
-
-
-          <div class="card" style="min-width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-            </div>
-          </div>
-
-          <div class="card" style="min-width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-            </div>
-          </div>
-
-          <div class="card" style="min-width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-            </div>
-          </div>
-
-          <div class="card" style="min-width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-            </div>
-          </div>
-
-          <div class="card" style="min-width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-            </div>
-          </div>
-
-          <div class="card" style="min-width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-            </div>
-          </div>
-
-          <div class="card" style="min-width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-            </div>
-          </div>
-
+        <div class="hstack gap-3" style="overflow: scroll; align-items: start;" id="suggestions_container">
         </div>
       </div>
     </section>
 
 
     <footer>
-      <h1>Footer from the index</h1>
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <img src="assets/images/logo.png" style="height: 2rem;" />
+            </a>
+            <span class="text-muted">© Aayush and Team</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-muted" href="https://github.com/aayusharyan" target="_blank">
+                <img src="assets/images/github.png" style="height: 1rem;" />    
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="https://instagram.com/yush.dev" target="_blank">
+                <img src="assets/images/instagram.png" style="height: 1rem;" />    
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="https://www.twitter.com/" target="_blank">
+                <img src="assets/images/twitter.png" style="height: 1rem;" />
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
     </footer>
 
     <script src="assets/js/bootstrap.js"></script>

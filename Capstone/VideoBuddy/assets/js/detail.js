@@ -26,6 +26,60 @@ fetch('https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDe
   document.getElementById('video_views').innerText = view_count;
   document.getElementById('video_likes').innerText = like_count;
   document.getElementById('player_iframe').src="https://www.youtube.com/embed/" + video_id;
+
+  getSuggestions();
 });
 
-console.log(video_id);
+
+function getSuggestions() {
+  fetch('https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=15&relatedToVideoId='+video_id+'&type=video&key=AIzaSyAdWaVR_CQXV4SELrqkK6_qbtvsepjE03o')
+  .then((res) => {
+    return res.json();
+  }).then((data) => {
+    // console.log(data);
+    const suggestion_list = data.items;
+    const suggestions_container = document.getElementById('suggestions_container');
+
+    for(let i = 0; i < suggestion_list.length; i++) {
+      const single_suggestion = suggestion_list[i];
+      console.log(single_suggestion);
+
+      const suggesion_video_id = single_suggestion.id.videoId;
+      if(single_suggestion.snippet == undefined) {
+        continue;
+      }
+      const suggestion_video_title = single_suggestion.snippet.title;
+      const suggestion_video_thumbnail = single_suggestion.snippet.thumbnails.high.url;
+    
+      const h5_elem = document.createElement('h5');
+      h5_elem.classList.add('card-title');
+      h5_elem.innerText = suggestion_video_title;
+
+      const anchor_elem = document.createElement('a');
+      anchor_elem.href = `detail.html?id=${suggesion_video_id}`;
+      anchor_elem.appendChild(h5_elem);
+
+      const div_elem = document.createElement('div');
+      div_elem.classList.add('card-body');
+      div_elem.appendChild(anchor_elem);
+
+      const image_elem = document.createElement('img');
+      image_elem.src = suggestion_video_thumbnail;
+      image_elem.classList.add('card-img-top');
+
+      const card_div_elem = document.createElement('div');
+      card_div_elem.classList.add('card');
+      card_div_elem.style.minWidth = "18rem";
+      card_div_elem.style.maxWidth = "18rem";
+      card_div_elem.appendChild(image_elem);
+      card_div_elem.appendChild(div_elem);
+
+      suggestions_container.appendChild(card_div_elem);
+    }
+  });
+}
+
+/*
+<div class="card" style="min-width: 18rem;">
+</div>
+*/

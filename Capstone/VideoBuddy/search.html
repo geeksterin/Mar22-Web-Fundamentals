@@ -8,40 +8,57 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
   </head>
   <body>
-    <nav>
-      <h1>Navigation bar from index</h1>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          VideoBuddy
+        </a>
+        <form class="d-flex" action="search.html">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q" id="input_search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </nav>
 
 
     <section class="mt-4 px-4">
-      <div class="vstack gap-3">
-        <div class="bg-light border">
-          <div class="card">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="bg-light border">Second item</div>
-        <div class="bg-light border">Third item</div>
+      <div class="vstack gap-3" id="search_result_container">
       </div>
     </section>
 
     <footer>
-      <h1>Footer from the index</h1>
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <img src="assets/images/logo.png" style="height: 2rem;" />
+            </a>
+            <span class="text-muted">© Aayush and Team</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-muted" href="https://github.com/aayusharyan" target="_blank">
+                <img src="assets/images/github.png" style="height: 1rem;" />    
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="https://instagram.com/yush.dev" target="_blank">
+                <img src="assets/images/instagram.png" style="height: 1rem;" />    
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="https://www.twitter.com/" target="_blank">
+                <img src="assets/images/twitter.png" style="height: 1rem;" />
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
     </footer>
 
     <script src="assets/js/bootstrap.js"></script>
-    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="assets/js/search.js"></script>
   </body>
 </html>

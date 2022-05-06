@@ -37,7 +37,8 @@ fetch('https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDe
 
     const div_elem_1 = document.createElement('div');
     div_elem_1.classList.add("card");
-    div_elem_1.style.width = "18rem";
+    div_elem_1.classList.add("my-2");
+    div_elem_1.style.width = "100%";
     div_elem_1.appendChild(image_elem);
     div_elem_1.appendChild(div_elem);
 

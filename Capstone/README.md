@@ -31,3 +31,10 @@ Boilerplate -> The piece of code which is ready to use and is a basic need to ge
 ## May-04-2022
 1. 
 
+http://localhost:5500/Capstone/VideoBuddy/detail.html?id=_iz5_DuY_II
+http://localhost:5500/Capstone/VideoBuddy/detail.html?id=_iz5_DuY_II
+
+
+https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=15&relatedToVideoId=[VIDEO_ID]&type=video&key=[YOUR_API_KEY]
+
+http://localhost:5500/Capstone/VideoBuddy/search.html?q=abcd
